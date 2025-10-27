@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Beth&#39;s Blog</title>
+      <link>https://www.wanderforlife/blog</link>
+      <description>Beth&#39;s thoughts on various random topics</description>
+      <language>en-us</language>
+      <managingEditor>beth@sevenjam.com (@realbeth)</managingEditor>
+      <webMaster>beth@sevenjam.com (@realbeth)</webMaster>
+      <lastBuildDate>Fri, 01 Aug 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.wanderforlife/tags/life/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.wanderforlife/blog/beginners-mind</guid>
+    <title>Beginner&#39;s Mind in Living a Life</title>
+    <link>https://www.wanderforlife/blog/beginners-mind</link>
+    <description>Going back to embracing the philosophy of beginner&#39;s mind.</description>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    <author>beth@sevenjam.com (@realbeth)</author>
+    <category>life</category><category>learning</category>
+  </item>
+
+  <item>
+    <guid>https://www.wanderforlife/blog/our-reflections-in-others</guid>
+    <title>We See Our Reflections in Others</title>
+    <link>https://www.wanderforlife/blog/our-reflections-in-others</link>
+    <description>When you see other people, you often see your own reflection in them, without even realizing it.</description>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    <author>beth@sevenjam.com (@realbeth)</author>
+    <category>thoughts</category><category>life</category>
+  </item>
+
+  <item>
+    <guid>https://www.wanderforlife/blog/protein-folding-problem</guid>
+    <title>The Rise of Deep AI and Protein Folding Problem</title>
+    <link>https://www.wanderforlife/blog/protein-folding-problem</link>
+    <description>AI turned out to be better than me.</description>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    <author>beth@sevenjam.com (@realbeth)</author>
+    <category>life</category><category>ai</category><category>protein folding</category>
+  </item>
+
+    </channel>
+  </rss>

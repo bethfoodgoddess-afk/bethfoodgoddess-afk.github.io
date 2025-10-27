@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Beth's Home",
+      "description": "This is Beth's home page."
+    }
+  },
+  "common": {
+    "websiteName": "Beth's Home",
+    "navigation": {
+      "home": "Home",
+      "destinations": "Destinations",
+      "gallery": "Gallery",
+      "stories": "Stories",
+      "gear": "Gear",
+      "about": "About",
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "buttons": {
+      "learnMore": "Learn More",
+      "requestQuote": "Request Quote",
+      "getStarted": "Contact Me",
+      "startConversation": "Start Conversation",
+      "checkPrices": "Any Questions?"
+    },
+    "theme": {
+      "skyBlue": "Sky Blue",
+      "mexicoGreen": "Forest Green",
+      "dayOfTheDead": "Nine Muses",
+      "aiPassion": "AI Passion",
+      "iceWorld": "Ice World",
+      "kingMeidas": "King Meidas"
+    }
+  },
+  "header": {
+    "tooltips": {
+      "language": "Switch language",
+      "theme": "Switch theme",
+      "mode": "Switch mode"
+    }
+  },
+  "footer": {
+    "description": "Home page for Beth.",
+    "socialMedia": "Social Media",
+    "navigation": "Navigation",
+    "ytChannels": "YT Channels",
+    "devProfiles": "Dev Profiles",
+    "copyright": "© 2025 Beth. All rights reserved.",
+    "follow_me": {
+      "youtube": "YouTube",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Wander for Life",
+      "description": "Embrace the journey, live the adventure.",
+      "browse1": "Gallery",
+      "browse2": "About"
+    },
+    "destinations": {
+      "title": "Featured Destinations",
+      "description": "A glimpse into some of my favorite places.",
+      "items": [
+        {
+          "icon": "Plane",
+          "title": "Asia",
+          "description": "From the vibrant streets of Tokyo to the ancient temples of Cambodia, Asia is a continent of endless discovery. I've spent years exploring its diverse cultures, cuisines, and landscapes.",
+          "color": "text-bright-blue"
+        },
+        {
+          "icon": "Mountain",
+          "title": "South America",
+          "description": "The dramatic landscapes of Patagonia, the rhythm of Rio de Janeiro, and the history of the Inca Empire. South America is a continent that ignites the senses and leaves a lasting impression.",
+          "color": "text-bright-green"
+        },
+        {
+          "icon": "Sun",
+          "title": "Europe",
+          "description": "A tapestry of history, art, and culture. I've wandered through ancient Roman ruins, marveled at Renaissance art in Florence, and gotten lost in the charming streets of Paris.",
+          "color": "text-bright-purple"
+        },
+        {
+          "icon": "Pyramid",
+          "title": "Africa",
+          "description": "The cradle of humanity, Africa is a continent of breathtaking wildlife, stunning natural wonders, and vibrant cultures. My journeys have taken me from the deserts of Morocco to the savannas of Tanzania.",
+          "color": "text-bright-orange"
+        }
+      ]
+    },
+    "travel_stories": {
+      "title": "Travel Stories",
+      "description": "A collection of stories from my travels.",
+      "items": [
+        {
+          "icon": "Sunrise",
+          "title": "Sunrise in the Sahara",
+          "period": "2022",
+          "description": "Waking up to the first light of dawn in the Sahara desert is an experience that stays with you forever. The silence, the vastness, and the colors of the sky are simply breathtaking.",
+          "color": "text-bright-orange"
+        },
+        {
+          "icon": "Train",
+          "title": "The Trans-Siberian Railway",
+          "period": "2019",
+          "description": "Seven days on a train from Moscow to Vladivostok. A journey through the heart of Russia, watching the landscape change from bustling cities to endless forests and steppes.",
+          "color": "text-bright-blue"
+        },
+        {
+          "icon": "Anchor",
+          "title": "Sailing the Greek Islands",
+          "period": "2021",
+          "description": "Island hopping in the Aegean Sea, discovering hidden coves, ancient ruins, and charming fishing villages. The simple life on the water is a recipe for pure happiness.",
+          "color": "text-bright-green"
+        },
+        {
+          "icon": "Compass",
+          "title": "Getting Lost in Venice",
+          "period": "2018",
+          "description": "There's no better way to explore Venice than by getting lost in its labyrinthine streets and canals. Every corner reveals a new surprise, a hidden gem waiting to be discovered.",
+          "color": "text-bright-purple"
+        }
+      ]
+    },
+    "photo_gallery": {
+      "title": "Photo Gallery",
+      "description": "A collection of my favorite photos from my travels.",
+      "items": [
+        {
+          "label": "Colors of India",
+          "url": "/gallery/india",
+          "description": "A visual journey through the vibrant streets, markets, and festivals of India.",
+          "screenshot": "/web002/placeholder.svg",
+          "icon": "Camera",
+          "color": "text-bright-blue"
+        },
+        {
+          "label": "Landscapes of New Zealand",
+          "url": "/gallery/new-zealand",
+          "description": "From the majestic fjords of Milford Sound to the rolling hills of the Shire, New Zealand's landscapes are pure magic.",
+          "screenshot": "/web002/placeholder.svg",
+          "icon": "Mountain",
+          "color": "text-bright-green"
+        },
+        {
+          "label": "Wildlife of the Galapagos",
+          "url": "/gallery/galapagos",
+          "description": "Up close and personal with the unique and fearless wildlife of the Galapagos Islands.",
+          "screenshot": "/web002/placeholder.svg",
+          "icon": "Turtle",
+          "color": "text-bright-purple"
+        },
+        {
+          "label": "Architecture of Europe",
+          "url": "/gallery/europe",
+          "description": "A collection of architectural marvels, from ancient castles to modern masterpieces.",
+          "screenshot": "/web002/placeholder.svg",
+          "icon": "Building",
+          "color": "text-bright-orange"
+        }
+      ]
+    },
+    "youtubeChannels": {
+      "title": "YouTube Channels",
+      "description": "I've been dabbling with informational and educational videos on YouTube for the last few months. Here are some of my channels."
+    },
+    "travel_philosophy": {
+      "title": "My Travel Philosophy",
+      "description": "More than just seeing new places, travel is a way of life.",
+      "items": [
+        {
+          "title": "Embrace the Unexpected",
+          "description": "Some of the best travel memories come from unplanned detours and unexpected encounters. I believe in leaving room for spontaneity and embracing the unknown.",
+          "icon": "Sparkles",
+          "color": "text-bright-blue"
+        },
+        {
+          "title": "Connect with Locals",
+          "description": "To truly understand a place, you need to connect with its people. I make an effort to learn a few words of the local language, eat at local restaurants, and listen to their stories.",
+          "icon": "Users",
+          "color": "text-bright-green"
+        },
+        {
+          "title": "Travel Light",
+          "description": "The less you carry, the more you are free to explore. I'm a firm believer in minimalist packing, carrying only what is essential.",
+          "icon": "Backpack",
+          "color": "text-bright-purple"
+        },
+        {
+          "title": "Leave a Positive Impact",
+          "description": "I strive to be a responsible traveler, respecting local cultures, supporting local economies, and minimizing my environmental footprint.",
+          "icon": "Heart",
+          "color": "text-bright-orange"
+        }
+      ]
+    },
+    "about_me": {
+      "sectionTitle": "About Me",
+      "sectionDescription": "A little bit about my journey.",
+      "list": [
+        "I believe that travel is the best education. It has taught me more than any school or book ever could.",
+        "My camera is my constant companion. I love capturing the beauty of the world and sharing it with others.",
+        "I'm a firm believer in solo travel. It's a chance to challenge yourself, build confidence, and discover who you really are.",
+        "Food is a big part of my travels. I love trying new cuisines and learning about a culture through its food.",
+        "I'm passionate about responsible travel and leaving a positive impact on the places I visit."
+      ],
+      "techTitle": "Join me on my adventures!",
+      "techDescription": "Follow my blog and social media to see where I'm off to next."
+    },
+    "cta": {
+      "title": "Intrigued?",
+      "description": "Please contact me if you have any questions."
+    },
+    "starters": {
+      "sectionTitle": "Why Starter AI Agent?",
+      "sectionDescription": "Start with a professional, affordable AI agent. Easily expand features and capabilities as your business grows and your needs evolve. An AI agent can automate tasks, improve customer service, and provide valuable insights."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Some things you might be wondering about."
+    },
+    "travel_tips": {
+      "sectionTitle": "Travel Tips",
+      "sectionDescription": "A few things I've learned along the way.",
+      "professional": {
+        "title": "Packing Light",
+        "subtitle": "The art of minimalist travel.",
+        "description": "Learn how to pack everything you need in a single carry-on bag. I'll share my favorite packing cubes, space-saving techniques, and a versatile wardrobe that works for any destination."
+      },
+      "skills": {
+        "title": "Finding Cheap Flights",
+        "subtitle": "Fly more, spend less.",
+        "description": "I'll share my secrets for finding the best flight deals, from using the right search engines to being flexible with your travel dates. Traveling on a budget doesn't mean you have to sacrifice your dream destinations."
+      },
+      "projects": {
+        "title": "Staying Safe on the Road",
+        "subtitle": "Travel with confidence.",
+        "description": "Whether you're a solo traveler or with a group, safety is always a top priority. I'll share my tips for staying safe and healthy on the road, from avoiding scams to being prepared for emergencies."
+      },
+      "ideas": {
+        "title": "Sustainable Travel",
+        "subtitle": "Travel with a purpose.",
+        "description": "Learn how to be a more responsible traveler and make a positive impact on the places you visit. From supporting local businesses to reducing your carbon footprint, every little bit helps."
+      }
+    }
+  },
+  "destinationsPage": {
+    "hero": {
+      "title": "My Destinations",
+      "description": "A map of my adventures around the world."
+    }
+  },
+  "photoGalleryPage": {
+    "hero": {
+      "title": "My Photo Gallery",
+      "description": "A collection of my favorite photos from my travels. I hope they inspire you to explore the world."
+    }
+  },
+  "travelStoriesPage": {
+    "hero": {
+      "title": "My Travel Stories",
+      "description": "A collection of stories and reflections from my journeys around the world."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About",
+      "titleHighlight": "Beth",
+      "description": "A solo traveler sharing her journey with the world."
+    },
+    "story": {
+      "title": "My Story",
+      "paragraph1": "I took my first solo trip in my late 20s, and it changed my life. I discovered a sense of freedom and independence I had never known before.",
+      "paragraph2": "Since then, I've been exploring the world on my own terms, collecting stories and experiences that have shaped who I am today.",
+      "paragraph3": "This blog is my way of sharing my journey with you, and hopefully inspiring you to embark on your own adventures, whatever they may be.",
+      "foundationYear": "2015",
+      "foundationDescription": "The year of my first solo trip"
+    },
+    "values": {
+      "title": "My Travel Principles",
+      "description": "The principles that guide my travels.",
+      "quality": {
+        "title": "Authenticity",
+        "description": "I seek out authentic experiences that allow me to connect with the local culture and people."
+      },
+      "innovation": {
+        "title": "Curiosity",
+        "description": "I believe in the power of curiosity to lead to new discoveries and a deeper understanding of the world."
+      },
+      "commitment": {
+        "title": "Respect",
+        "description": "I travel with respect for the local culture, customs, and environment."
+      },
+      "transparency": {
+        "title": "Honesty",
+        "description": "I share my honest experiences, the good and the bad, to give you a real sense of what it's like to travel the world."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "titleHighlight": "Me",
+      "description": "I'd love to hear from you!"
+    },
+    "form": {
+      "title": "Send me a message",
+      "description": "Have a question, a comment, or just want to say hello? Drop me a line using the form below.",
+      "successMessage": "Message sent successfully! I'll get back to you soon.",
+      "errorMessage": "There was an error sending your message. Please try again later.",
+      "notFunctional": "*This form is currently not functional. Please contact me directly at <emailLink>{email}</emailLink>.",
+      "fullNameLabel": "Full Name *",
+      "fullNamePlaceholder": "Your full name",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "you@email.com",
+      "messageLabel": "Message *",
+      "messagePlaceholder": "Your message...",
+      "submitButton": {
+        "submitting": "Sending...",
+        "text": "Send Message"
+      }
+    },
+    "contactInfo": {
+      "email": {
+        "title": "Email",
+        "value": "beth@wanderforlife.com"
+      },
+      "location": {
+        "title": "Based in",
+        "value": "San Diego, CA"
+      }
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Privacy",
+      "titleHighlight": "Policy",
+      "description": "Your privacy is important to us. This privacy statement explains the personal data Beth's Travel Blog processes, how Beth's Travel Blog processes it, and for what purposes."
+    }
+  },
+  "terms": {
+    "hero": {
+      "title": "Terms of",
+      "titleHighlight": "Service",
+      "description": "These terms and conditions outline the rules and regulations for the use of Beth's Travel Blog's Website, located at wanderforlife.com."
+    }
+  },
+  "blogPage": {
+    "title": "Wanderer for Life",
+    "description": "My thoughts on travels and what not.",
+    "noPosts": "No posts found.",
+    "publishedOn": "Published on",
+    "readMore": "Read more &rarr;"
+  },
+  "postLayout": {
+    "publishedOn": "Published on",
+    "authors": "Authors",
+    "name": "Name",
+    "twitter": "Twitter",
+    "tags": "Tags",
+    "previousArticle": "Previous Article",
+    "nextArticle": "Next Article",
+    "backToBlog": "&larr; Back to the blog"
+  }
+}
