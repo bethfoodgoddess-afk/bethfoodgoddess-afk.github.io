@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --port 3331 --turbopack",
-    "prebuild": "node_modules/.bin/contentlayer2 build",
+    "prebuild": "node_modules\\.bin\\contentlayer2 build",
     "build": "next build",
-    "build:all": "node_modules/.bin/contentlayer2 build && next build --turbopack",
+    "build:all": "node_modules\\.bin\\contentlayer2 build && next build --turbopack",
     "start": "serve out",
     "lint": "next lint",
     "blog:start": "next dev --port 3332 --turbopack",

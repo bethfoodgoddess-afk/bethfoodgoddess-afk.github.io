@@ -85,8 +85,14 @@
         {
           "icon": "Pyramid",
           "title": "Africa",
-          "description": "The cradle of humanity, Africa is a continent of breathtaking wildlife, stunning natural wonders, and vibrant cultures. My journeys have taken me from the deserts of Morocco to the savannas of Tanzania.",
+          "description": "Coming soon, 2026.",
           "color": "text-bright-orange"
+        },
+        {
+          "icon": "Pyramid",
+          "title": "North America",
+          "description": "We LIVE here.",
+          "color": "text-bright-blue"
         }
       ]
     },
@@ -96,8 +102,8 @@
       "items": [
         {
           "icon": "Sunrise",
-          "title": "Sunrise in the Sahara",
-          "period": "2022",
+          "title": "Hiking in the Inca Trail",
+          "period": "2025",
           "description": "Waking up to the first light of dawn in the Sahara desert is an experience that stays with you forever. The silence, the vastness, and the colors of the sky are simply breathtaking.",
           "color": "text-bright-orange"
         },
@@ -132,7 +138,7 @@
           "label": "Colors of India",
           "url": "/gallery/india",
           "description": "A visual journey through the vibrant streets, markets, and festivals of India.",
-          "screenshot": "/placeholder.svg",
+          "screenshot": "/me.jpg",
           "icon": "Camera",
           "color": "text-bright-blue"
         },
@@ -268,6 +274,41 @@
     "hero": {
       "title": "About",
       "titleHighlight": "Beth",
+      "description": "A solo traveler sharing her journey with the world."
+    },
+    "story": {
+      "title": "My Story",
+      "paragraph1": "I took my first solo trip in my late 20s, and it changed my life. I discovered a sense of freedom and independence I had never known before.",
+      "paragraph2": "Since then, I've been exploring the world on my own terms, collecting stories and experiences that have shaped who I am today.",
+      "paragraph3": "This blog is my way of sharing my journey with you, and hopefully inspiring you to embark on your own adventures, whatever they may be.",
+      "foundationYear": "2015",
+      "foundationDescription": "The year of my first solo trip"
+    },
+    "values": {
+      "title": "My Travel Principles",
+      "description": "The principles that guide my travels.",
+      "quality": {
+        "title": "Authenticity",
+        "description": "I seek out authentic experiences that allow me to connect with the local culture and people."
+      },
+      "innovation": {
+        "title": "Curiosity",
+        "description": "I believe in the power of curiosity to lead to new discoveries and a deeper understanding of the world."
+      },
+      "commitment": {
+        "title": "Respect",
+        "description": "I travel with respect for the local culture, customs, and environment."
+      },
+      "transparency": {
+        "title": "Honesty",
+        "description": "I share my honest experiences, the good and the bad, to give you a real sense of what it's like to travel the world."
+      }
+    }
+  },
+  "africa": {
+    "hero": {
+      "title": "Trip to",
+      "titleHighlight": "Africa",
       "description": "A solo traveler sharing her journey with the world."
     },
     "story": {
