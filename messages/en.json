@@ -116,16 +116,16 @@
         },
         {
           "icon": "Anchor",
-          "title": "Sailing the Greek Islands",
-          "period": "2021",
-          "description": "Island hopping in the Aegean Sea, discovering hidden coves, ancient ruins, and charming fishing villages. The simple life on the water is a recipe for pure happiness.",
+          "title": "Sailing the coast of Belize",
+          "period": "2025",
+          "description": "This was not a plan, only an adventure. When a woman I met while hunkerd down for a hurricane, asked for my help sailing her boat from Belize City to Placiencia, I jumped. Did I know what I was doing? Of course not!",
           "color": "text-bright-green"
         },
         {
           "icon": "Compass",
-          "title": "Getting Lost in Venice",
-          "period": "2018",
-          "description": "There's no better way to explore Venice than by getting lost in its labyrinthine streets and canals. Every corner reveals a new surprise, a hidden gem waiting to be discovered.",
+          "title": "Lost on the Appalachian Trail",
+          "period": "2014",
+          "description": "There's no better way to explore the eastern USA than by getting lost in its oldest hiking path. Everyone of the 12 states you walk through, reveals nature, history and hidden gems.",
           "color": "text-bright-purple"
         }
       ]
