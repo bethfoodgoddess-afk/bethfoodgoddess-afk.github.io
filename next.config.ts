@@ -12,7 +12,8 @@ const withNextMdx = createNextMdx({
 const nextConfig: NextConfig = {
   // reactStrictMode: true,
   output: 'export',
-  basePath: '/web002',
+  // basePath: '',
+  basePath: '',
   trailingSlash: false,
   skipTrailingSlashRedirect: false,
   devIndicators: false,

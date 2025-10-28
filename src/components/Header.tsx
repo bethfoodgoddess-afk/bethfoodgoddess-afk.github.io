@@ -86,7 +86,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/web002/logo.png" alt="Beth's Home Logo" width={32} height={32} />
+              <Image src="/logo.png" alt="Beth's Home Logo" width={32} height={32} />
               <span className="text-xl font-bold text-foreground">
                 {t('websiteName')}
               </span>

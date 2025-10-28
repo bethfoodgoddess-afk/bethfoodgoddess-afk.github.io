@@ -132,7 +132,7 @@
           "label": "Colors of India",
           "url": "/gallery/india",
           "description": "A visual journey through the vibrant streets, markets, and festivals of India.",
-          "screenshot": "/web002/placeholder.svg",
+          "screenshot": "/placeholder.svg",
           "icon": "Camera",
           "color": "text-bright-blue"
         },
@@ -140,7 +140,7 @@
           "label": "Landscapes of New Zealand",
           "url": "/gallery/new-zealand",
           "description": "From the majestic fjords of Milford Sound to the rolling hills of the Shire, New Zealand's landscapes are pure magic.",
-          "screenshot": "/web002/placeholder.svg",
+          "screenshot": "/placeholder.svg",
           "icon": "Mountain",
           "color": "text-bright-green"
         },
@@ -148,7 +148,7 @@
           "label": "Wildlife of the Galapagos",
           "url": "/gallery/galapagos",
           "description": "Up close and personal with the unique and fearless wildlife of the Galapagos Islands.",
-          "screenshot": "/web002/placeholder.svg",
+          "screenshot": "/placeholder.svg",
           "icon": "Turtle",
           "color": "text-bright-purple"
         },
@@ -156,7 +156,7 @@
           "label": "Architecture of Europe",
           "url": "/gallery/europe",
           "description": "A collection of architectural marvels, from ancient castles to modern masterpieces.",
-          "screenshot": "/web002/placeholder.svg",
+          "screenshot": "/placeholder.svg",
           "icon": "Building",
           "color": "text-bright-orange"
         }

@@ -80,7 +80,7 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <Image src="/web002/logo.png" alt="Beth's Home Logo" width={32} height={32} />
+              <Image src="/logo.png" alt="Beth's Home Logo" width={32} height={32} />
               <span className="text-xl font-bold text-foreground">
                 {t('common.websiteName')}
               </span>
