@@ -67,30 +67,35 @@
         {
           "icon": "Plane",
           "title": "Asia",
+          "url": "/destinations#asia",
           "description": "From the vibrant streets of Tokyo to the ancient temples of Cambodia, Asia is a continent of endless discovery. I've spent years exploring its diverse cultures, cuisines, and landscapes.",
           "color": "text-bright-blue"
         },
         {
           "icon": "Mountain",
           "title": "South America",
+          "url": "/destinations#south-america",
           "description": "The dramatic landscapes of Patagonia, the rhythm of Rio de Janeiro, and the history of the Inca Empire. South America is a continent that ignites the senses and leaves a lasting impression.",
           "color": "text-bright-green"
         },
         {
           "icon": "Sun",
           "title": "Europe",
+          "url": "/destinations#europe",
           "description": "A tapestry of history, art, and culture. I've wandered through ancient Roman ruins, marveled at Renaissance art in Florence, and gotten lost in the charming streets of Paris.",
           "color": "text-bright-purple"
         },
         {
           "icon": "Pyramid",
           "title": "Africa",
+          "url": "/africa",
           "description": "Coming soon, 2026.",
           "color": "text-bright-orange"
         },
         {
           "icon": "Pyramid",
           "title": "North America",
+          "url": "/destinations#north-america",
           "description": "We LIVE here.",
           "color": "text-bright-blue"
         }
@@ -136,7 +141,7 @@
       "items": [
         {
           "label": "Colors of India",
-          "url": "/gallery/india",
+          "url": "/gallery#india",
           "description": "A visual journey through the vibrant streets, markets, and festivals of India.",
           "screenshot": "/me.jpg",
           "icon": "Camera",
@@ -144,7 +149,7 @@
         },
         {
           "label": "Landscapes of New Zealand",
-          "url": "/gallery/new-zealand",
+          "url": "/gallery#new-zealand",
           "description": "From the majestic fjords of Milford Sound to the rolling hills of the Shire, New Zealand's landscapes are pure magic.",
           "screenshot": "/placeholder.svg",
           "icon": "Mountain",
@@ -152,7 +157,7 @@
         },
         {
           "label": "Wildlife of the Galapagos",
-          "url": "/gallery/galapagos",
+          "url": "/gallery#galapagos",
           "description": "Up close and personal with the unique and fearless wildlife of the Galapagos Islands.",
           "screenshot": "/snake.JPG",
           "icon": "Turtle",
@@ -160,11 +165,19 @@
         },
         {
           "label": "Architecture of Europe",
-          "url": "/gallery/europe",
+          "url": "/gallery#europe",
           "description": "A collection of architectural marvels, from ancient castles to modern masterpieces.",
           "screenshot": "/shack.jpg",
           "icon": "Building",
           "color": "text-bright-orange"
+        },
+        {
+          "label": "Urban Adventures in Mexico City",
+          "url": "/gallery#mexico-city",
+          "description": "From the Monument to the Revolution to the canals of Xochimilco, Mexico City is a vibrant blend of history, culture, and modern life.",
+          "screenshot": "/placeholder.svg",
+          "icon": "Building",
+          "color": "text-bright-blue"
         }
       ]
     },
@@ -370,7 +383,7 @@
       },
       "location": {
         "title": "Based in",
-        "value": "San Diego, CA"
+        "value": "Bloomington, In"
       }
     }
   },
