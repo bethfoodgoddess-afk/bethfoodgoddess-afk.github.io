@@ -1,9 +1,30 @@
+
+import ClientOnly from '@/components/ClientOnly';
+import { ProjectItem, ProjectItemDescription, ProjectItemIcon, ProjectItemTitle } from '@/components/elements/project-item';
+import { Popover } from '@radix-ui/react-popover';
 import { useTranslations } from 'next-intl';
+import React from 'react';
+import Image from 'next/image';
+import { Camera, Mountain, Turtle, Building, InfoIcon } from 'lucide-react';
+
+const portfolioIconMap = {
+  "Camera": Camera,
+  "Mountain": Mountain,
+  "Turtle": Turtle,
+  "Building": Building,
+};
 
 export default function GalleryPage() {
   const t = useTranslations();
 
-  const photoGallery = t.raw('home.photo_gallery.items') as any[];
+  const rawGallery = t.raw('home.photo_gallery.items') as any[];
+  const photoGallery = rawGallery.map((item) => {
+    const iconComponent = portfolioIconMap[item.icon as keyof typeof portfolioIconMap] || InfoIcon;
+    return {
+      ...item,
+      icon: iconComponent,
+    };
+  });
 
   return (
     <>
@@ -21,16 +42,52 @@ export default function GalleryPage() {
             </div>
           </div>
         </section>
+
         <div className="container mx-auto px-4 py-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
             {photoGallery.map((item, index) => (
-              <div key={index} className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-card-foreground mb-2">{item.label}</h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
-              </div>
+              <ProjectItem key={index} title={item.label} description={item.description || ""}>
+                <ClientOnly>
+                  <ProjectItemTitle className="flex items-center gap-2">
+                    <ProjectItemIcon>
+                      {item.icon && React.createElement(item.icon, { className: `h-6 w-6 ${item.color ?? ''}` })}
+                    </ProjectItemIcon>
+                    {item.label}
+                  </ProjectItemTitle>
+                </ClientOnly>
+                {item.screenshot && (
+                  <div className="my-1">
+                    {item.url ? (
+                      <a href={item.url}>
+                        <Image
+                          src={item.screenshot}
+                          alt={item.label}
+                          width={128}
+                          height={128}
+                          style={{ objectFit: "cover" }}
+                        />
+                      </a>
+                    ) : (
+                      <Image
+                        src={item.screenshot}
+                        alt={item.label}
+                        width={128}
+                        height={128}
+                        style={{ objectFit: "cover" }}
+                      />
+                    )}
+                  </div>
+                )}
+                <ProjectItemDescription className="line-clamp-3">
+                  {item.description}
+                </ProjectItemDescription>
+              </ProjectItem>
             ))}
+
           </div>
         </div>
+
       </main>
     </>
   );
