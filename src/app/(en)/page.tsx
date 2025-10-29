@@ -188,15 +188,25 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {destinations.map((destination, index) => (
+            {destinations.slice(0, 4).map((destination, index) => (
               <ProjectItem key={index} title={destination.title} description={destination.description}>
                 <ProjectItemTitle className="flex items-center gap-2">
                   <ProjectItemIcon>
                     {destination.icon && React.createElement(destination.icon, { className: `h-6 w-6 ${destination.color}` })}
                   </ProjectItemIcon>
                   {destination.title}
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <button type="button" className="ml-1 p-0 bg-transparent border-none cursor-pointer">
+                        <InfoIcon className="h-4 w-4 text-muted-foreground" />
+                      </button>
+                    </PopoverTrigger>
+                    <PopoverContent className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px] text-sm">
+                      {destination.description}
+                    </PopoverContent>
+                  </Popover>
                 </ProjectItemTitle>
-                <ProjectItemDescription className="line-clamp-8 md:line-clamp-6 lg:line-clamp-5">
+                <ProjectItemDescription className="line-clamp-3">
                   {destination.description}
                 </ProjectItemDescription>
               </ProjectItem>
@@ -226,21 +236,31 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {travelStories.map((story, index) => (
+            {travelStories.slice(0, 4).map((story, index) => (
               <ClientOnly key={index}>
                 <ProjectItem key={index} title={story.title} description={story.description}>
-                      <ProjectItemTitle className="flex items-center gap-2">
-                        <ProjectItemIcon>
-                          {story.icon && React.createElement(story.icon, { className: `h-6 w-6 ${story.color}` })}
-                        </ProjectItemIcon>
-                        {story.title}
-                      </ProjectItemTitle>
+                  <ProjectItemTitle className="flex items-center gap-2">
+                    <ProjectItemIcon>
+                      {story.icon && React.createElement(story.icon, { className: `h-6 w-6 ${story.color}` })}
+                    </ProjectItemIcon>
+                    {story.title}
+                    <Popover>
+                      <PopoverTrigger asChild>
+                        <button type="button" className="ml-1 p-0 bg-transparent border-none cursor-pointer">
+                          <InfoIcon className="h-4 w-4 text-muted-foreground" />
+                        </button>
+                      </PopoverTrigger>
+                      <PopoverContent className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px] text-sm">
+                        {story.description}
+                      </PopoverContent>
+                    </Popover>
+                  </ProjectItemTitle>
                   {story.period && (
                     <ProjectItemPeriod className="text-xs text-muted-foreground -mt-2 -mb-1 md:-mt-3 md:-mb-2">
                       {story.period || "???"}
                     </ProjectItemPeriod>
                   )}
-                  <ProjectItemDescription className="line-clamp-8 md:line-clamp-6 lg:line-clamp-5">
+                  <ProjectItemDescription className="line-clamp-3">
                     {story.description}
                   </ProjectItemDescription>
                 </ProjectItem>
@@ -271,15 +291,25 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {photoGallery.map((item, index) => (
+            {photoGallery.slice(0, 4).map((item, index) => (
               <ProjectItem key={index} title={item.label} description={item.description || ""}>
                 <ClientOnly>
-                      <ProjectItemTitle className="flex items-center gap-2">
-                        <ProjectItemIcon>
-                          {item.icon && React.createElement(item.icon, { className: `h-6 w-6 ${item.color ?? ''}` })}
-                        </ProjectItemIcon>
-                        {item.label}
-                      </ProjectItemTitle>
+                  <ProjectItemTitle className="flex items-center gap-2">
+                    <ProjectItemIcon>
+                      {item.icon && React.createElement(item.icon, { className: `h-6 w-6 ${item.color ?? ''}` })}
+                    </ProjectItemIcon>
+                    {item.label}
+                    <Popover>
+                      <PopoverTrigger asChild>
+                        <button type="button" className="ml-1 p-0 bg-transparent border-none cursor-pointer">
+                          <InfoIcon className="h-4 w-4 text-muted-foreground" />
+                        </button>
+                      </PopoverTrigger>
+                      <PopoverContent className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px] text-sm">
+                        {item.description}
+                      </PopoverContent>
+                    </Popover>
+                  </ProjectItemTitle>
                 </ClientOnly>
                 {item.screenshot && (
                   <div className="my-1">
@@ -304,7 +334,7 @@ export default function Home() {
                     )}
                   </div>
                 )}
-                <ProjectItemDescription className="line-clamp-8 md:line-clamp-6 lg:line-clamp-5">
+                <ProjectItemDescription className="line-clamp-3">
                   {item.description}
                 </ProjectItemDescription>
               </ProjectItem>

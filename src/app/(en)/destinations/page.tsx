@@ -64,21 +64,13 @@ export default function DestinationsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {destinations.map((destination, index) => (
               <ProjectItem key={index} title={destination.title} description={destination.description}>
-                <Popover>
-                  <PopoverTrigger className="cursor-pointer">
-                    <ProjectItemTitle className="flex items-center gap-2">
-                      <ProjectItemIcon>
-                        {destination.icon && React.createElement(destination.icon, { className: `h-6 w-6 ${destination.color}` })}
-                      </ProjectItemIcon>
-                      {destination.title}
-                      <InfoIcon className="h-4 w-4 text-muted-foreground" />
-                    </ProjectItemTitle>
-                  </PopoverTrigger>
-                  <PopoverContent className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px] text-sm">
-                    {destination.description}
-                  </PopoverContent>
-                </Popover>
-                <ProjectItemDescription className="line-clamp-8 md:line-clamp-6 lg:line-clamp-5">
+                <ProjectItemTitle className="flex items-center gap-2">
+                  <ProjectItemIcon>
+                    {destination.icon && React.createElement(destination.icon, { className: `h-6 w-6 ${destination.color}` })}
+                  </ProjectItemIcon>
+                  {destination.title}
+                </ProjectItemTitle>
+                <ProjectItemDescription>
                   {destination.description}
                 </ProjectItemDescription>
               </ProjectItem>

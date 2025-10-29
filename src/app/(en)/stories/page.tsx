@@ -68,26 +68,18 @@ export default function StoriesPage() {
             {travelStories.map((story, index) => (
               <ClientOnly key={index}>
                 <ProjectItem key={index} title={story.title} description={story.description}>
-                  <Popover>
-                    <PopoverTrigger className="cursor-pointer">
-                      <ProjectItemTitle className="flex items-center gap-2">
-                        <ProjectItemIcon>
-                          {story.icon && React.createElement(story.icon, { className: `h-6 w-6 ${story.color}` })}
-                        </ProjectItemIcon>
-                        {story.title}
-                        <InfoIcon className="h-4 w-4 text-muted-foreground" />
-                      </ProjectItemTitle>
-                    </PopoverTrigger>
-                    <PopoverContent className="max-w-[300px] md:max-w-[400px] lg:max-w-[500px] text-sm">
-                      {story.description}
-                    </PopoverContent>
-                  </Popover>
+                  <ProjectItemTitle className="flex items-center gap-2">
+                    <ProjectItemIcon>
+                      {story.icon && React.createElement(story.icon, { className: `h-6 w-6 ${story.color}` })}
+                    </ProjectItemIcon>
+                    {story.title}
+                  </ProjectItemTitle>
                   {story.period && (
                     <ProjectItemPeriod className="text-xs text-muted-foreground -mt-2 -mb-1 md:-mt-3 md:-mb-2">
                       {story.period || "???"}
                     </ProjectItemPeriod>
                   )}
-                  <ProjectItemDescription className="line-clamp-8 md:line-clamp-6 lg:line-clamp-5">
+                  <ProjectItemDescription>
                     {story.description}
                   </ProjectItemDescription>
                 </ProjectItem>
