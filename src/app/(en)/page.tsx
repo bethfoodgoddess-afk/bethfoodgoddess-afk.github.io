@@ -15,6 +15,7 @@ import React from "react"
 // }
 import { useState, useEffect, useMemo } from "react"
 import ClientOnly from "@/components/ClientOnly";
+import AppLogo from "@/components/logos/AppLogo";
 import Image from "next/image";
 
 import {
@@ -33,7 +34,6 @@ import {
 interface Destination {
   icon: LucideIcon;
   title: string;
-  url?: string;
   description: string;
   color: string;
 }
@@ -43,7 +43,6 @@ const destinationIconMap = {
   "Mountain": Mountain,
   "Sun": Sun,
   "Pyramid": Pyramid,
-  "Building": Building,
 };
 
 const getDestinations = (t) => {
@@ -195,13 +194,7 @@ export default function Home() {
                   <ProjectItemIcon>
                     {destination.icon && React.createElement(destination.icon, { className: `h-6 w-6 ${destination.color}` })}
                   </ProjectItemIcon>
-                  {destination.url ? (
-                    <Link href={destination.url} className="underline text-primary hover:text-primary-600">
-                      {destination.title}
-                    </Link>
-                  ) : (
-                    destination.title
-                  )}
+                  {destination.title}
                   <Popover>
                     <PopoverTrigger asChild>
                       <button type="button" className="ml-1 p-0 bg-transparent border-none cursor-pointer">

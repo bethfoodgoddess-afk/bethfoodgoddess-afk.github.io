@@ -1,6 +1,5 @@
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { LucideIcon, Plane, Mountain, Sun, Pyramid, Building, InfoIcon } from "lucide-react";
+import { LucideIcon, Plane, Mountain, Sun, Pyramid, InfoIcon } from "lucide-react";
 import React from "react";
 import {
   Popover,
@@ -17,7 +16,6 @@ import {
 interface Destination {
   icon: LucideIcon;
   title: string;
-  url?: string;
   description: string;
   color: string;
 }
@@ -27,7 +25,6 @@ const destinationIconMap = {
   "Mountain": Mountain,
   "Sun": Sun,
   "Pyramid": Pyramid,
-  "Building": Building,
 };
 
 const getDestinations = (t) => {
@@ -71,13 +68,7 @@ export default function DestinationsPage() {
                   <ProjectItemIcon>
                     {destination.icon && React.createElement(destination.icon, { className: `h-6 w-6 ${destination.color}` })}
                   </ProjectItemIcon>
-                  {destination.url ? (
-                    <Link href={destination.url} className="underline text-primary hover:text-primary-600">
-                      {destination.title}
-                    </Link>
-                  ) : (
-                    destination.title
-                  )}
+                  {destination.title}
                 </ProjectItemTitle>
                 <ProjectItemDescription>
                   {destination.description}
