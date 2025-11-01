@@ -391,10 +391,9 @@
   "blogPage": {
     "title": "Wanderer for Life",
     "description": "My thoughts on travels and what not.",
-    "searchPlaceholder": "Search posts...",
     "noPosts": "No posts found.",
     "publishedOn": "Published on",
-    "readMore": "Read more →"
+    "readMore": "Read more &rarr;"
   },
   "postLayout": {
     "publishedOn": "Published on",
@@ -404,6 +403,6 @@
     "tags": "Tags",
     "previousArticle": "Previous Article",
     "nextArticle": "Next Article",
-    "backToBlog": "← Back to the blog"
+    "backToBlog": "&larr; Back to the blog"
   }
 }
